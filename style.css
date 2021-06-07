@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+main{
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rgb-value{
+    padding: 20px 0;
+    font-size: 2rem;
+}
+.btn{
+    border: 2px solid black;
+    padding: 15px 35px;
+    font-size: 2rem;
+    text-transform: capitalize;
+    box-shadow: 5px 5px rgba(0, 0, 0, .1);
+}
